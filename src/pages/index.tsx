@@ -1,3 +1,4 @@
+import SubmitButton from "@/ui/components/SubmitButton";
 import Head from "next/head";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       </Head>
       <main>
         <div className="text-3xl">初期画面</div>
+        <SubmitButton text="送信" />
       </main>
     </>
   );
