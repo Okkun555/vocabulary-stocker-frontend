@@ -5,7 +5,7 @@ const createJestConfig = nextJest({ dir: "./" });
 const customJestingConfig = {
   textPathIgnorePatterns: ["<rootDir>/node_modules/", "<rootDir>/.next/"],
   setupFilesAfterEnv: ["<rootDir>/jest.setup.js"],
-  textEnvironment: "jsdom",
+  testEnvironment: "jest-environment-jsdom",
 };
 
 module.exports = createJestConfig(customJestingConfig);
