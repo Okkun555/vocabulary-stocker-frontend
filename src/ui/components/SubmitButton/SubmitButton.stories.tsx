@@ -6,6 +6,10 @@ export default {
   component: SubmitButton,
 } as ComponentMeta<typeof SubmitButton>;
 
-export const Primary = () => {
-  return <SubmitButton text="送信" />;
+export const Disabled = () => {
+  return <SubmitButton text="送信" disabled={true} />;
+};
+
+export const Enabled = () => {
+  return <SubmitButton text="送信" disabled={false} />;
 };
