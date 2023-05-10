@@ -1,7 +1,7 @@
 import SubmitButton from ".";
 
 export default {
-  title: "SubmitButton",
+  title: "ui/SubmitButton",
   component: SubmitButton,
 };
 
